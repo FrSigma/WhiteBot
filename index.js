@@ -116,6 +116,6 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if(message.content === ':celico_67') {
-       message.channel.send('Ceclico_67: Modératrice du serveur des Moussaillons qui vient du 67, une grande fan de Minecraft qui aime les rebéllions.')
+       message.channel.send('Celico_67: Modératrice du serveur des Moussaillons qui vient du 67, une grande fan de Minecraft qui aime les rebéllions.')
     }
 });
