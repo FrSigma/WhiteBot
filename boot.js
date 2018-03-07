@@ -29,7 +29,7 @@ bot.on('ready', function() {
     bot.user.setPresence({status: 'online', game: {name: ':help - Aide'}});
 })
 
-bot.login('NDIwNjAzOTI3MTA1NTAzMjMz.DYBQ8A.9XfoHQ14sZv_9Rw0qWNur0rxJxQ') // Token
+bot.login(process.env.TOKEN) // Token
 
 bot.on('message', message => {
     if(message.content === 'Mousse !') {
