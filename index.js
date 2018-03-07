@@ -2,8 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 bot.on('ready', function() {
-    console.log("WhiteBot > Lancement...");
-    console.log("WhiteBot > Lancé avec succès !");
+    console.log("WhiteBot > Le bot à été lancé avec succès !");
     bot.channels.get('420257701537513483').send({embed: {
         color: 3066993,
         fields: [{
